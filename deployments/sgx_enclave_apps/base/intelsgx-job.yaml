@@ -14,7 +14,7 @@ spec:
       containers:
         -
           name: intelsgx-demo-job-1
-          image: intel/sgx-sdk-demo:devel
+          image: localhost:5000/intel/sgx-sdk-demo:devel
           imagePullPolicy: IfNotPresent
           workingDir: "/opt/intel/sgx-sample-app/"
           command: ["/opt/intel/sgx-sample-app/sgx-sample-app"]

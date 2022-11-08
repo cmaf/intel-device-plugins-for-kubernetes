@@ -1,0 +1,5 @@
+[
+  {"op": "replace", "path": "/spec/template/spec/containers/1/workingDir", "value": "/opt/intel/sgx-quote-generation/"},
+  {"op": "replace", "path": "/spec/template/spec/containers/1/command", "value": ["/bin/sh"]},
+  {"op": "replace", "path": "/spec/template/spec/containers/1/args", "value": ["-c", "sleep 5 && /opt/intel/sgx-quote-generation/sgx-quote-generation"]}
+]

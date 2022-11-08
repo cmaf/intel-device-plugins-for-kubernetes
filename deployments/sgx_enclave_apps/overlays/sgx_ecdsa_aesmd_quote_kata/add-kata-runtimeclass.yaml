@@ -1,0 +1,8 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: intelsgx-demo-job
+spec:
+  template:
+    spec:
+      runtimeClassName: kata-clh
